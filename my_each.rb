@@ -5,7 +5,8 @@ def my_each (array)
       yield array [i]
       i+=1
     end
-  else
-    puts "No block given"
-  end
+  #else
+    #puts "No block given"
+  #end
+  array
 end
